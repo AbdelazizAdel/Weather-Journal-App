@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: linear-gradient(to right, #ffd89b, #19547b);
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3vw;
+}
+
+i {
+    font-size: 2vw;
+}
+
+label {
+    display: inline-block;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 30%;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 1%;
+}
+
+textarea {
+    height: 20vh;
+    resize: none;
+}
+
+button {
+    width: auto;
+    padding: 5px 1vw;
+    font-size: 1.2em;
+    background-color: #19547b;
+    color: #fffff8;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+b {
+    display: none;
+}
+
+.show {
+    display: inline-block;
+    font-size: 1.2em;
+    padding: 5px 5px 5px 0;
+}
+
+#date, #temp, #content {
+    font-size: 1.2em;
+}
+
